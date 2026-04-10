@@ -13,7 +13,9 @@ The analysis is structured as a reproducible Jupyter notebook covering data inge
 
 ## Project Structure
 ├── Stock_Market_CPI_Analysis_Improved.ipynb   # main notebook
+
 ├── README.md
+
 └── data_raw_sp500_return.csv                  # exported S&P 500 returns 
 
 ## Methodology
