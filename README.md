@@ -65,17 +65,17 @@ bashjupyter notebook Stock_Market_CPI_Analysis_Improved.ipynb
 For Google Colab: upload the .ipynb file and uncomment the pip install cell at the top.
 
 ## Potential Extensions
-A — CPI surprise with real consensus data
+1. CPI surprise with real consensus data
 Fetch historical consensus forecasts from the Cleveland Fed or Bloomberg. The surprise component is theoretically the primary driver of market moves; improving this signal is the highest-ROI next step.
-B — Intraday resolution
+2. Intraday resolution
 Use 5-minute bars around the 8:30am release time to measure immediate price discovery and how quickly the surprise is absorbed.
-C — Asymmetric beat/miss reactions
+3. Asymmetric beat/miss reactions
 Test whether CPI beats (actual > expected) and misses produce symmetric or asymmetric absolute returns — a well-documented phenomenon in equities.
-D — Broader macro event comparison
+4. Broader macro event comparison
 Apply the same CAR event study to PCE, PPI, NFP, and FOMC decisions. Rank announcements by average absolute abnormal return to identify which releases matter most.
-E — Sector-level analysis
+5. Sector-level analysis
 Pull ETF data for XLU, XLRE, XLF, XLE and compare event-window behavior across sectors expected to have different rate sensitivities.
-F — Walk-forward backtesting
+6. Walk-forward backtesting
 Convert the vol-spike signal into a simple options strategy (e.g., buy straddles before predicted spike days) and evaluate P&L with realistic transaction costs.
 
 ## Dependencies
