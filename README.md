@@ -54,11 +54,10 @@ TreeExplainer SHAP values reveal which features drive the Random Forest's volati
 
 
 ## Installation
-## Installation
 
 ### Option 1: Google Colab (recommended, no setup required)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NganTran-185/cpi-volatility-analysis/blob/main/Stock_Market_Reaction_to_Macroeconomic_Announcement.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/NganTran-185/cpi-volatility-analysis/blob/main/Stock_Market_Reaction_to_Macroeconomic_Anouncement.ipynb)
 
 Click the badge above to open the notebook directly in Colab. Uncomment the `pip install` cell at the top, then run all cells sequentially (Runtime → Run all).
 
